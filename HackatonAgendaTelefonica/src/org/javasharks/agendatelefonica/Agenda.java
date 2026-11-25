@@ -38,4 +38,30 @@ public class Agenda {
         return null; //si no lo encuentra devuelve un null
     }
 
+    //Mètodo para eliminar un contacto
+
+    public boolean elminarContacto(String nombre) {
+        Contacto existente = buscarContacto(nombre);
+        if (existente != null){
+            contactos.remove(existente);
+            return true;
+        }
+        return false; //No es necesario un else
+    }
+
+    //Mètodo editar telèfono
+
+    public boolean editarContacto(String nombre, String nuevoTelefono){
+        Contacto existente = buscarContacto(nombre);
+        if (existente != null){
+            existente.setTelefono(nuevoTelefono);
+            return true;
+        }
+        return false;
+    }
+
+
+
+
+
 }
