@@ -4,3 +4,4 @@
 **Integrantes:**
 
 Víctor Antonio Gómez Serna
+Teresa Erandi Mejía Pascual
