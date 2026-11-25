@@ -23,6 +23,19 @@ public class Agenda {
         }
     }
 
+    //Metodo listar contactos
+    public List<Contacto> listaDeContactos(){
+        return contactos;
+    }
 
+    //Metodo buscar contacto
+    public Contacto buscarContacto(String nombre){
+        for (Contacto contacto : contactos){
+            if (contacto.getNombre().equalsIgnoreCase(nombre)){
+                return contacto; //si lo encuentra te devuelve contacto
+            }
+        }
+        return null; //si no lo encuentra devuelve un null
+    }
 
 }
