@@ -3,10 +3,12 @@
 
 **Integrantes:**
 
-Víctor Antonio Gómez Serna 
+ALEXANDER ELISEO OLIVIERI ANGELES
 
-Teresa Erandi Mejía Pascual
+ARANZA  MONSERRAT ISLAS CASTRO
 
-Aranza Monserrat Islas Castro
+HÉCTOR ADRIÁN SÁNCHEZ ARROYO
 
-Héctor Adrian Sánchez Arroyo
+TERESA ERANDI MEJÍA PASCUAL
+
+VÍCTOR ANTONIO GÓMEZ SERNA
