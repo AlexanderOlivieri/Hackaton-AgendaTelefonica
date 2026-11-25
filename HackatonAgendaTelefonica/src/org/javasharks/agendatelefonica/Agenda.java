@@ -7,7 +7,19 @@ public class Agenda {
     //no queremos que el usuario escriba sobre el arreglo sin los métodos para ello
     private List<Contacto> contactos = new ArrayList<>();
 
-    //constructor no es necesario, sólo los métodos
+    private int capacidadMaxima;
+
+    //Constructor vacio
+    public Agenda(){
+        this(10);
+    }
+
+    //Constructor para tamaño de la agenda
+    public Agenda(int capacidadMaxima){
+        this.capacidadMaxima = capacidadMaxima;
+    }
+
+
     //métodos propios
     //Verificar que no existe un contacto previamente
     public boolean existeContacto(Contacto contacto){
@@ -59,9 +71,18 @@ public class Agenda {
         }
         return false;
     }
+    //Método agenda llena
+    public boolean agendaLlena(){
+        if (capacidadMaxima > 0){
+            return contactos.size() >= capacidadMaxima;
+        }
+        return contactos.size() >= 10;
+    }
 
-
-
+    //Método espacios disponibles en la agenda
+    public int espacioLibre(){
+        return capacidadMaxima-contactos.size();
+    }
 
 
 }
