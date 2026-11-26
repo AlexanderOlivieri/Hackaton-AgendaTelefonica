@@ -18,6 +18,7 @@ El proyecto consiste en una agenda telefónica que permite administrar contactos
   
   [![Alexander-Olivieri](https://github.com/AlexanderOlivieri.png?size=60)](https://github.com/AlexanderOlivieri)
   [![Hector-Ssnchez](https://github.com/Tradick.png?size=60)](https://github.com/Tradick)
+  [![Erandi-Mejia](https://github.com/Erandi-M.png?size=60)](https://github.com/Erandi-M)
   [![Victor-Serna06](https://github.com/VictorSerna06.png?size=60)](https://github.com/VictorSerna06)
   <!--[![Aranza-Islas](https://github.com/ariislas.png?size=60)](https://github.com/ariislas)
   [![Erandi-Mejia](https://github.com/Erandi-M.png?size=60)](https://github.com/Erandi-M)-->
