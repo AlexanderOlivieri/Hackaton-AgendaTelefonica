@@ -27,7 +27,7 @@ public class Agenda {
     }
     //mensajes en main, esta clase sólo contiene lógica
     public boolean anadirContacto(Contacto contacto){
-        if(existeContacto(contacto)){
+        if(existeContacto(contacto) && agendaLlena()){
             return false;
         } else {
             contactos.add(contacto);
@@ -73,10 +73,7 @@ public class Agenda {
     }
     //Método agenda llena
     public boolean agendaLlena(){
-        if (capacidadMaxima > 0){
-            return contactos.size() >= capacidadMaxima;
-        }
-        return contactos.size() >= 10;
+        return contactos.size() <= capacidadMaxima;
     }
 
     //Método espacios disponibles en la agenda
