@@ -19,7 +19,7 @@ El proyecto consiste en una agenda telefónica que permite administrar contactos
 
 ---
 
-![portada_proyecto](https://github.com/AlexanderOlivieri/Hackaton-AgendaTelefonica/PortadaProyecto.png)
+![portada_proyecto](https://github.com/AlexanderOlivieri/Hackaton-AgendaTelefonica/blob/main/Assets/team/PortadaProyecto.png)
 
 ## 🎯 Objetivo del proyecto
 
