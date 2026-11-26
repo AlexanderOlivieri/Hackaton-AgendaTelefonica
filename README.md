@@ -5,7 +5,7 @@ Aplicación de consola gráfica desarrollada en **Java** durante el Hackathon de
 El proyecto consiste en una agenda telefónica que permite administrar contactos mediante una interfaz basada en ventanas emergentes, utilizando `JOptionPane`.
 
 ---
-<img align='right' src="/Assets/team/java_shark_coffee.gif" height="" width="300" alt="Tiburón saliendo de su taza">
+<img align='right' src="/Assets/team/JavaShark2.jpg" width="300" alt="Tiburón saliendo de su taza">
 
 ## 👥 Equipo JavaSharks
 
