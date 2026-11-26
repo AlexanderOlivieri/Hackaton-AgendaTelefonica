@@ -23,11 +23,17 @@ public class Agenda {
     //métodos propios
     //Verificar que no existe un contacto previamente
     public boolean existeContacto(Contacto contacto){
-        return contactos.contains(contacto);
+        for(Contacto c : contactos){
+            if(c.getNombre().equalsIgnoreCase(contacto.getNombre()) ||
+                c.getTelefono().equalsIgnoreCase(contacto.getTelefono())){
+                return true;
+            }
+        }
+        return false;
     }
     //mensajes en main, esta clase sólo contiene lógica
     public boolean anadirContacto(Contacto contacto){
-        if(existeContacto(contacto) && agendaLlena()){
+        if(existeContacto(contacto) || !agendaLlena()){
             return false;
         } else {
             contactos.add(contacto);
@@ -73,7 +79,7 @@ public class Agenda {
     }
     //Método agenda llena
     public boolean agendaLlena(){
-        return contactos.size() <= capacidadMaxima;
+        return contactos.size() < capacidadMaxima;
     }
 
     //Método espacios disponibles en la agenda
